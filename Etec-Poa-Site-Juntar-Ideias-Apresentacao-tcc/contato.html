@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Juntar Ideias- Contato</title>
+<link rel="shortcut icon" href="img/favicon.ico" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="Reset Css/reset-meyer.css"  />
+<link rel="stylesheet" type="text/css" href="css/contato_smartphone320.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_smartphone480.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_smartphone720.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_tablet768.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_tablet900.css" />
+<link rel="stylesheet" type="text/css" href="css/contato1024.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_1280.css" />
+<link rel="stylesheet" type="text/css" href="css/contato_notbook1366.css"  />
+<script  language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script language="javascript" type="text/jscript" src="js/jquery.maskedinput.js"></script>
+<script language="javascript" type="text/javascript" >
+	jQuery(function($){
+	       $("#telefone").mask("(99)9999-9999");
+		   $("#telefone2").mask("(99)9999-9999");
+	});
+</script>
+<script language="javascript" type="text/javascript" src="js/valida_form.js"></script>
+<script language="javascript" type="text/javascript" src="js/valida_form 2.js" ></script>
+</head>
+<body> 
+
+	<div id="principal">
+    	<div id="topo">
+        	
+              <h1>Juntar ideias Desenvolvimento de web Sites</h1>
+       <div id="menu1">
+       <center>
+       <ul id="menu">			
+                <li id="esquerda"><a href="index.html">Home</a></li>
+				<li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a class="drop">Serviços</a>
+                    <div class="columns">
+                        <ul class="col">
+                            <span></span> 
+                            <li><a href="criacaosite.html#t1" class="drop">Criação de Sites</a></li>
+                            <li><a href="criacaosite.html#t2">Manutenção de Sites</a></li>
+                            <li><a href="criacaosite.html#t3">Upgrade Web Sites</a></li>
+                            <li><a href="criacaosite.html#t4">Sistemas Web</a></li>                            
+                        </ul>
+                        <ul class="col">
+                            <span></span>
+                            <li><a href="artedigital.html#tx1">Criação de Logotipos</a></li>
+                            <li><a href="artedigital.html#tx2">Identidade visual</a></li>
+                            <li><a href="artedigital.html#tx3">Arte para Impressos</a></li>
+                            <li><a href="seo.html">SEO</a></li>                        
+                        </ul>			
+                    </div> 
+                </li> 
+				<li><a href="portfolio.html">Portfólio</a></li>
+				<li id="direita"><a href="#">Fale Conosco</a></li>
+                </center>
+         </ul> 
+         </div>
+        </div>     
+        <div id="conteudo" >
+        	<form id="form1" name="form1" action="faleconosco.php" method="POST">
+                <fieldset>
+                <legend id="leg">Contato</legend>         
+                <label for="nome" id="lab">Nome</label>
+					<input type="text"  id="nome" name="nome" size="50"  tabindex="1"/><br />
+                <label for="assunto" id="ass" >Assunto</label>
+					<input type="text" id="assunto" name="assunto" size="50" tabindex="2"/><br />
+                <label for="email" id="em" >Email</label>
+					<input type="email" id="email" name="email" size="50" tabindex="3"/><br />
+                <label for="telefone" id="tel">Telefone</label>
+					<input type="telefone" id="telefone" name="telefone"  tabindex="4"/><br />
+				<span id="msg" >Mensagem</span>
+				<textarea cols="60" rows="14" id="mensagem" name="mensagem" tabindex="5"></textarea>
+					<input name="Enviar" type="submit"  onclick="return validar()" class="enviar" id="enviar" value="Enviar" />
+                </fieldset>                           
+             </form>
+             
+             
+             <form id="formc" name="formc" action="faleconosco2.php" method="POST">
+                <fieldset>
+                <legend id="leg2">Contato</legend>         
+                <label for="nome2" id="lab2">Nome</label>
+					<input type="text"  id="nome2" name="nome2" size="25"  tabindex="1"/><br />
+                <label for="assunto2" id="ass2" >Assunto</label>
+					<input type="text" id="assunto2" name="assunto2" size="25" tabindex="2"/><br />
+                <label for="email2" id="em2" >Email</label>
+					<input type="email" id="email2" name="email2" size="25" tabindex="3"/><br />
+                <label for="telefone2" id="tel2">Telefone</label>
+					<input type="telefone" id="telefone2" name="telefone2"  tabindex="4"/><br />
+				<span id="msg2" >Mensagem</span>
+				<textarea cols="30" rows="10" id="mensagem2" name="mensagem2" tabindex="5"></textarea>
+					<input name="Enviar" type="submit"  onclick="return validaa()" class="enviar2" id="enviar2" value="Enviar" />
+                </fieldset>                           
+             </form>
+		</div>
+        
+        <div id="rodape">
+            <div id="um">
+            <h2><span class="juntar">Juntar</span> <span class="ideias">Ideias</span></h2>
+                <p id="paragra">Ideias que Tranformam a Web</p>
+            </div>
+           <div id="icones">
+            	<a href="https://www.facebook.com/oficialjuntarideias?fref=ts" target="_blank"><img src="img/ICONS/facebook-icon.png" class="ic1" onmouseover="this.src='img/ICONS/facebookverde.png'" onmouseout="this.src='img/ICONS/facebook-icon.png'"/></a>
+               <a href="http://instagram.com/juntarideias" target="_blank"><img src="img/ICONS/instagram.png" class= "ic3" onmouseover="this.src='img/ICONS/instagramverde.png'" onmouseout="this.src='img/ICONS/instagram.png'"/></a>
+                <a href="mailto:juntar_ideias@outlook.com" target="_blank"><img src="img/ICONS/email.png" class= "ic3" onmouseover="this.src='img/ICONS/emailverde.png'" onmouseout="this.src='img/ICONS/email.png'"/></a>
+                <a href="https://twitter.com/juntarideias" target="_blank"><img src='img/ICONS/twitter.png'" class= "ic3" onmouseover="this.src='img/ICONS/twitterverde.png'" onmouseout="this.src='img/ICONS/twitter.png'"/></a>                           
+             </div>
+             
+        </div>
+        
+    </div>
+</body>
+</html>

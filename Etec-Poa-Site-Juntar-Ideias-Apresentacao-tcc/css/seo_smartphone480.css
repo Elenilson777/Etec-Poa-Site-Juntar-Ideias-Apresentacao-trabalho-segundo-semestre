@@ -1,0 +1,243 @@
+@media screen and (min-width: 321px) and (max-width: 480px){
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#fff;
+	}
+#principal {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin:0  auto;
+	width:96%;
+	}
+#topo {
+	width:100%;
+	height:20.61631%;
+	background:url(../img/topo_verde.jpg) no-repeat;
+	background-size:150%;
+	border-top:0.45em;
+	border-top-style:solid;
+	border-top-color:#ff6600;
+	border-bottom:0.25em;
+	border-bottom-style:solid;
+	border-bottom-color:#ff6600;
+	z-index:30;
+	}
+#topo h1 {
+	width:35%;
+	margin-top:-17.36111%;
+	margin-left:-651.04166%;
+	font-size:1.2em;
+	text-align:center;
+	color:#000;
+	}
+#menu1 {
+	width:100%;
+	margin-top:20.61631%;
+	background:#000;
+	padding: 4.15742% 0;
+	background:#000;
+	
+	
+	}#menu1 ul, #menu1 li{
+	display:inline;	
+	}
+#menu li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+	padding:0.86805%;
+	background:#000;
+	margin:0 ;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;	
+	
+	}
+#menu li a:hover {
+	background:#fff;
+	color:#000;
+	
+	
+	}
+#menu li .columns {
+	position:absolute; /* Importante para posicionar o conteúdo do dropdown */
+	left:-999999px; /* Esconde o dropdown quando o mouse não está em cima do link */
+	padding:2.17013% 2.17013% 2.17013% 3.255195% ;/*preenciento da tabela*/
+	border-top:none;/*borda da tabela*/
+	background:#333;/*cor de fundo da tabela*/
+	width: 60%;/*tamanho da tabela*/
+	z-index:45;
+	margin-top:1%;/*açtura da tabela em relação ao link Serviços*/	
+}
+#menu li:hover .columns{/*posição da tabela quando o clica em serviços*/
+	left:32.6%;
+	
+}
+#menu ul li {
+	line-height:4.55729%;/*altura da fonte nas listas*/
+}
+#menu li ul.col{ /*coluna da tabela*/
+	display:inline;
+	float: left;
+	position: relative;
+	padding:0;
+	margin:0 0 0 0;/*margem entre as duas colunas*/
+	width:50%;
+}
+#menu li ul.col li {
+	margin:0 0 0 0;
+	list-style-type:none;
+	position:relative;
+	float:none;
+	background:;
+}
+#menu li .col li:hover {
+	margin:0 0 2.17013% 0;
+}
+/*#menu li .col span{
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+	
+}*/
+#menu li .col li a{
+	font-size:0.65em;
+	font-weight:bold;
+	color:#fff;
+	background:#000;
+	height:6.51041%;
+	line-height:2.8em;
+	display:block;
+	text-align:left;
+	text-decoration:none;
+	padding:2.17012% 0 2.17012% 2.17012%;
+	margin:8% 5% 8% 3%;/*posicionamento de um link para o outro, empurra um bloco para baixo do outro com um espaçamento*/
+	
+	
+}
+#menu li .col li a:hover{
+	color:#000;
+	background:#fff;	
+		
+	}
+.serviço1{
+	width: 28%;
+	float:left;
+	margin-right:3.2552%;
+	
+}
+#texto1{
+	text-align:justify;
+	line-height:1.3em;
+	
+}
+	/* MANUTENÇÃO DE SITES */
+#serviço2{
+	width: 100%;
+	height:126.95312%;
+	margin-top:3.2552%;
+	margin-bottom:5px;
+	box-shadow: 0.2em 0.2em 0.5em #ccc;
+}
+.serviço2{
+	width: 28%;
+	float:right;
+	margin-left:3.2552%;
+}
+#texto2{
+	text-align:justify;
+	line-height:1.3em;
+}
+	/* Título serviços */
+#t1{
+	padding-top:3.2552%;
+	font-weight:bold;
+	font-size: 1.3em;	
+}
+#t2{
+	padding-top:3.2552%;
+	font-weight:bold;
+	font-size: 1.3em;
+	text-align:center;
+	
+}
+#publicidade{
+	display:none;	
+}
+#rodape {
+	clear:both;
+	font:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:5.0em;
+	color:#333;
+	background:url(../img/rodape21.png) no-repeat;
+	background-size:180%;	
+	}
+#rodape #icones{
+	float:right;
+	width:50%;
+	height:50px;
+	margin-top:-9%;
+	}
+#rodape .ic1{
+	float:right;
+	margin: 0 2% 0 0 ;
+	display:block;
+	width:18%;
+	}
+#rodape .ic2{
+	float:right;
+	margin: 0 2% 0 0 ;
+	display:block;
+	width:18%;	
+	
+	}
+#rodape .ic3{
+	float:right;
+	margin: 0 2% 0 0 ;
+	display:block;
+	width:18%;	
+	
+	}
+#rodape .ic4{
+	float:right;
+	margin: 0 2% 0 0 ;
+	display:block;
+	width:18%;	
+	}
+#rodape .ic5{
+	float:right;
+	margin: 0 2% 0 0 ;
+	display:block;
+	width:18%;	
+	
+	}
+
+#rodape #um {
+	width:60%;
+	float:left;
+	height:3em;
+	margin-top:1.5em;
+	}
+#rodape h2{
+	font-size:1em;
+	margin: 1% 0 0 0;
+	text-align:center;
+	font-weight:bold;
+	color:000;
+	}
+#rodape #paragra{
+	font-size:1em;
+	color:#fff;	
+	text-align:center;
+	margin-top:0.5%;
+	}
+#rodape .juntar{
+	color:#f25022;
+	}
+#rodape .ideias{
+	color:#81bb03;
+	
+}
+}

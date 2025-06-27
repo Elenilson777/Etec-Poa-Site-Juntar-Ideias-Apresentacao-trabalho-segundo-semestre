@@ -1,0 +1,260 @@
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	background:#fff;
+	}
+#principal {
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0  auto;
+	font-size:14px;
+	width:96%;
+	}
+#topo {
+	width:100%;
+	height:15.098829%;
+	background:url(../img/topo_verde_notbook1366.jpg) no-repeat;
+	background-size:100%;
+	border-top:0.45em;
+	border-top-style:solid;
+	border-top-color:#ff6600;
+	border-bottom:0.225em;
+	border-bottom-style:solid;
+	border-bottom-color:#ff6600;
+	z-index:30;
+	}
+h1 {
+	width:100%
+	position:relative;
+	color:#000;
+	z-index:99999;
+	margin-left:-228.77013% ;
+	padding:0;
+	}
+#menu1 {
+	width:100%;
+	margin-top:10.675939%;
+	background:#000;
+	padding: 1.243851% 0;
+	background:#000;
+	}
+#menu1 ul, #menu1 li{
+	display:inline;	
+	}
+#menu li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	padding: 1% 2%;
+	background:#000;
+	margin:0 ;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;	
+	
+	}
+#menu li a:hover {
+	background:#fff;
+	color:#000;
+	
+	
+	}
+#menu li .columns {
+	position:absolute; /* Importante para posicionar o conteúdo do dropdown */
+	left:-999999px; /* Esconde o dropdown quando o mouse não está em cima do link */
+	padding:0.7625671% 1.525134% 0.7625671% 1.525134% ;/*preenciento da tabela*/
+	border-top:none;/*borda da tabela*/
+	background:#333;/*cor de fundo da tabela*/
+	width: 28%;/*tamanho da tabela*/
+	z-index:45;
+	margin-top:1%;/*açtura da tabela em relação ao link Serviços*/	
+}
+#menu li:hover .columns{/*posição da tabela quando o clica em serviços*/
+	left:44.5%;
+	
+}
+#menu ul li {
+	line-height:1.601391%;/*altura da fonte nas listas*/
+}
+#menu li ul.col{ /*coluna da tabela*/
+	display:inline;
+	float: left;
+	position: relative;
+	padding:0;
+	margin:0 0 0 0;/*margem entre as duas colunas*/
+	width:50%;
+}
+#menu li ul.col li {
+	margin:0 0 0 0;
+	list-style-type:none;
+	position:relative;
+	float:none;
+	background:;
+}
+#menu li .col li:hover {
+	margin:0 0 0.7625671% 0;
+}
+/*#menu li .col span{
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+	
+}*/
+#menu li .col li a{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#fff;
+	background:#000;
+	height:2.287701%;
+	line-height:2.3em;
+	display:block;
+	text-align:left;
+	text-decoration:none;
+	padding:0.5em 0 0.5em 1em;
+	margin:8% 5% 8% 3%;/*posicionamento de um link para o outro, empurra um bloco para baixo do outro com um espaçamento*/
+	
+	
+}
+#menu li .col li a:hover{
+	color:#000;
+	background:#fff;	
+	
+	
+	}
+
+
+#conteudo {
+	width:100%;
+	
+	}
+#dir{
+	float:right;
+	width:49%;
+	}
+#esqu{
+	float:left;
+	width:49%;
+	
+	}
+#esqu li, #dir li{
+	width:100%;
+	height:540px;
+	margin-bottom: 20px;
+	list-style:none;
+	}
+.img1{
+ background:#ffb901	;
+}
+.img2{
+ background:#f25022;
+}
+.img3{
+ background:#81bb03
+}
+#esqu img, #dir img{
+	width:70%;
+	display:block;
+	position:relative;
+	top:15%;
+	left:15%;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	}
+
+
+#esqu img:hover, #dir img:hover{
+	-webkit-transform:scale(1.3);
+	-moz-transform:scale(1.3) ;
+	-o-transform:scale(1.3);
+	-ms-transform:scale(1.3);	
+	}
+
+#titulo{
+	font:Verdana, Geneva, sans-serif;
+	font-size:2em;
+	text-align:center;
+	margin:10px;
+	
+	
+	}
+
+#rodape {
+	clear:both;
+	font:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:7em;
+	color:#333;
+	background:#000;
+	}
+#icones{
+	float:right;
+	width:39%;
+	height:60%;
+	margin-top:2%;
+	}
+#rodape .ic1{
+	float:right;
+	margin: 0 3% 0 0 ;
+	display:block;
+	width:11%;
+	}
+#rodape .ic2{
+	float:right;
+	margin: 0 3% 0 0 ;
+	display:block;
+	width:11%;	
+	
+	}
+#rodape .ic3{
+	float:right;
+	margin: 0 3% 0 0 ;
+	display:block;
+	width:11%;	
+	
+	}
+#rodape .ic4{
+	float:right;
+	margin: 0 3% 0 0 ;
+	display:block;
+	width:11%;	
+	}
+#rodape .ic5{
+	float:right;
+	margin: 0 6% 0 0 ;
+	display:block;
+	width:11%;	
+	
+	}
+
+#rodape #um {
+	width:50%;
+	float:left;
+	height:60%;
+	margin-top:1%;
+	}
+#rodape h2{
+	font-size:2em;
+	margin: 2% 0 0 0;
+	text-align:right;
+	color:000;
+	}
+#rodape #paragra{
+	font-size:0.4em;
+	color:#fff;	
+	text-align:right;
+	margin-top:0.5%;
+	margin-right:1%;
+	}
+#rodape .juntar{
+	color:#f25022;
+	}
+#rodape .ideias{
+	color:#81bb03;
+	
+}
+}
+	
+

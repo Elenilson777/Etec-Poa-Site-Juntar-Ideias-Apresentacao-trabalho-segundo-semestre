@@ -1,0 +1,277 @@
+@media screen and (max-width:320px){
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#fff;
+	}
+#principal {
+	font-family:Verdana, Geneva, sans-serif;
+	width:96%;
+	font-size:14px;
+	}
+#topo {
+	width:100%;
+	height:45.89843%;
+	background:url(../img/topo_verde_celular.jpg) no-repeat;
+	background-size:100%;
+	border-top:0.45em;
+	border-top-style:solid;
+	border-top-color:#ff6600;
+	border-bottom:0.225em;
+	border-bottom-style:solid;
+	border-bottom-color:#ff6600;
+	z-index:30;
+	}
+.drop{
+	display:none;}
+#topo h1 {
+	width:35%;
+	margin-top:-62.174479%;
+	margin-left:40%;
+	font-size:2em;
+	text-align:center;
+	color:#000;
+	
+	}
+#menu1 {
+	width:100%;
+	margin-top:47.200521%;
+	background:#000;
+	padding: 4.88281% 0;
+	background:#000;
+	
+	
+	}
+#menu1 ul, #menu1 li{
+	display:inline;	
+	}
+#menu li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.65em;
+	padding: 1.302083% 1.627604%;
+	background:#000;
+	margin:0 ;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;	
+	
+	}
+#menu li a:hover {
+	background:#fff;
+	color:#000;
+	}
+#menu li .columns {
+	display:none;
+}
+
+#menu li ul.col{ /*coluna da tabela*/
+	display:inline;
+}
+#menu li .col li a:hover{
+	color:#000;
+	background:#fff;	
+	
+	
+	}
+
+#conteudo {
+	width:100%;
+	background:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	margin-bottom:0;
+	}
+#conteudo_pri{
+	margin: 0 auto;
+	width:100%;
+	font-size:1em;
+	overflow:hidden;
+	background: rgba(255, 255, 255, .5);
+	position:relative;	
+	
+}
+#conteudo_pri p{
+	width:95%;
+	text-align:justify;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	line-height:1.8em;
+	margin:0 auto;
+	}
+#icon {
+	width:100%;
+	display:none;
+	}
+#titulo{
+	width:100%;
+	height: 5em;
+	}
+#figura2 {
+	display:none;
+	}
+#conteudo {
+	clear:both;
+	width:100%;
+	background:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#missao {
+	/*
+	background-color: #07ad74;  */
+	background:#81bb03;
+    opacity: 0.8;  
+    color: #FFF;  
+    font-family:Verdana, Geneva, sans-serif;
+    width: 96%;  
+	height:123.69791%;
+	padding: 2%; 
+	margin-top:5%;
+	}
+img.missao {  
+	display:block;
+    width: 100%;  
+    height: 55.33854%; 	
+}  
+#visao {
+	/*background-color: #07ad74;*/
+	background:#ffb901;  
+    opacity: 0.8;  
+    color: #FFF;  
+    font-family:Verdana, Geneva, sans-serif;
+    width: 96%;  
+    height:97.65625%;
+	padding: 2%; 
+	margin-top:5%;
+	}
+img.visao {
+	display:block;
+    width: 100%;  
+    height: 55.33854%; 	
+   
+}  
+#valores {
+	/*	background-color: #07ad74;  */
+	background:#f25022;
+    opacity: 0.8;  
+    color: #FFF;  
+    font-family:Verdana, Geneva, sans-serif;
+    width: 96%;  
+    height:123.69791%;
+    padding: 2%; 
+	margin-top:5%; 
+	}
+img.valores {
+    display:block;
+    width: 100%;  
+    height: 55.33854%; 	
+}  
+.titulo_cent {
+	text-align:center;
+	font-weight:bold;
+	font-size:2em;	
+	margin-top:10%;
+	margin-bottom:1%;
+	}
+#missao>p{
+	text-align:left;
+	line-height:110%;
+	font-size:1.2em;
+	margin-top:-3.2552%;
+	}
+#visao>p{
+	text-align:left;	
+	line-height:110%;
+	font-size:1.2em;
+	margin-top:-3.2552%;
+	}
+
+#valores>.p1 {
+	text-align:left;	
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:180%;
+	font-size:1.2em;
+	margin-top:-3.2552%;
+	}
+
+#rodape {
+	clear:both;
+	font:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:10em;
+	color:#333;
+	background:url(../img/rodape.png) no-repeat;
+	background-size:380%;
+	border:1px solid transparent;
+	}
+#icones{
+	width:100%;
+	height:15%;
+	margin-top:-43%;
+	}
+#rodape .ic1{
+	float:left;
+	margin:5% 4% 0 14%;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic2{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic3{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic4{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	}
+#rodape .ic5{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+
+#rodape #um {
+	width:100%;
+	height:150px;
+	
+	
+	}
+#rodape h2{
+	font-size:1em;
+	margin: 15% 0 0 0;
+	text-align:center;
+	font-weight:bold;
+	color:000;
+	}
+#rodape #paragra{
+	font-size:0.8em;
+	color:#fff;	
+	text-align:center;
+	
+	}
+#rodape .juntar{
+	font-weight:bold;
+	color:#f25022;
+	}
+#rodape .ideias{
+	font-weight:bold;
+	color:#81bb03;
+	
+	
+	}
+}
+

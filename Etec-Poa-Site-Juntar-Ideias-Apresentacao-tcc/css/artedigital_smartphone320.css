@@ -1,0 +1,242 @@
+@media screen and (max-width: 320px){
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#fff;
+	}
+#principal {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin:0  auto;
+	width:96%;
+	}
+#topo {
+	width:100%;
+	height:45.89843%;
+	background:url(../img/topo_verde_celular.jpg) no-repeat;
+	background-size:100%;
+	border-top:0.45em;
+	border-top-style:solid;
+	border-top-color:#ff6600;
+	border-bottom:0.225em;
+	border-bottom-style:solid;
+	border-bottom-color:#ff6600;
+	z-index:30;
+	}
+.drop{
+	display:none;}
+#topo h1 {
+	width:35%;
+	margin-top:-62.174479%;
+	margin-left:40%;
+	font-size:2em;
+	text-align:center;
+	color:#000;
+	
+	}
+#menu1 {
+	width:100%;
+	margin-top:47.200521%;
+	background:#000;
+	padding: 4.88281% 0;
+	background:#000;
+	
+	
+	}
+#menu1 ul, #menu1 li{
+	display:inline;	
+	}
+#menu li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.65em;
+	padding: 1.302083% 1.627604%;
+	background:#000;
+	margin:0 ;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;	
+	
+	}
+#menu li a:hover {
+	background:#fff;
+	color:#000;
+	}
+#menu li .columns {
+	display:none;
+}
+
+#menu li ul.col{ /*coluna da tabela*/
+	display:inline;
+}
+#menu li .col li a:hover{
+	color:#000;
+	background:#fff;	
+	
+	
+	}
+
+#conteudo {
+	clear:both;
+	width:100%;
+	background:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	margin-top:1%;
+	margin-bottom:0;
+
+	}
+	/* SERVIÇOS 1*/
+#espaco1{
+	width: 100%;
+	height:74.86979%;
+	margin-top:6.51041%;
+	margin-bottom:1.6276%;
+	box-shadow: 0.2em 0.2em 0.5em #ccc;
+
+}
+.icone1{
+	width: 25%;
+	float:left;
+	margin-right:3.2552%;
+	
+}
+#tex1{
+	text-align:justify;
+	line-height:1.3em;
+
+}
+#tx1{
+	padding-top:3.2552%;
+	text-align:center;
+	font-weight:bold;
+
+}
+
+#espaco2{
+	width: 100%;
+	height:81.3802%;
+	margin-top:3.2552%;
+	margin-bottom:1.6276%;
+	box-shadow: 0.2em 0.2em 0.5em #ccc;
+}
+.icone2{
+	width: 30%;
+	float:right;
+	margin-left:3.2552%;
+}
+#tex2{
+	text-align:justify;
+	line-height:1.3em;
+}
+#tx2{
+	padding-top:3.2552%;
+	text-align:center;
+	font-weight:bold;
+}
+	
+#espaco3{
+	width: 100%;
+	height:81.3802%;
+	margin-top:3.2552%;
+	margin-bottom:1.6276%;
+	box-shadow: 0.2em 0.2em 0.5em #ccc;
+}
+.icone3{
+	width: 25%;
+	float:left;
+	
+}
+#tex3{
+	text-align:justify;
+	line-height:1.3em;
+}
+#tx3{
+	padding-top: 3.2552%;
+	text-align:center;
+	font-weight:bold;
+}
+#publicidade{
+	display:none;
+}
+#rodape {
+	clear:both;
+	font:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:10em;
+	color:#333;
+	background:url(../img/rodape.png) no-repeat;
+	background-size:380%;
+	border:1px solid transparent;
+	}
+#icones{
+	width:100%;
+	height:15%;
+	margin-top:-43%;
+	}
+#rodape .ic1{
+	float:left;
+	margin:5% 4% 0 14%;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic2{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic3{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic4{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	}
+#rodape .ic5{
+	float:left;
+	margin:5% 4% 0 0;
+	display:block;
+	width:15%;	
+	
+	}
+
+#rodape #um {
+	width:100%;
+	height:150px;
+	
+	
+	}
+#rodape h2{
+	font-size:1em;
+	margin: 15% 0 0 0;
+	text-align:center;
+	font-weight:bold;
+	color:000;
+	}
+#rodape #paragra{
+	font-size:0.8em;
+	color:#fff;	
+	text-align:center;
+	
+	}
+#rodape .juntar{
+	font-weight:bold;
+	color:#f25022;
+	}
+#rodape .ideias{
+	font-weight:bold;
+	color:#81bb03;
+	
+	
+	}
+}
+

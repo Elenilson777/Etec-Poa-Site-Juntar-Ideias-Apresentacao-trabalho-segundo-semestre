@@ -1,0 +1,302 @@
+@media screen and (min-width: 721px) and (max-width: 768px){
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#fff;
+	}
+#principal {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin:0  auto;
+	width:96%;
+	}
+#topo {
+	width:100%;
+	height:130px;
+	background:url(../img/topo_verde.jpg) no-repeat;
+	background-size:100%;
+	border-top:6px;
+	border-top-style:solid;
+	border-top-color:#ff6600;
+	border-bottom:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#ff6600;
+	z-index:30;
+	}
+#topo h1 {
+	width:35%;
+	margin-top:-90px;
+	margin-left:-3000;
+	font-size:18px;
+	text-align:center;
+	color:#000;
+	}
+#menu1 {
+	width:100%;
+	margin-top:122px;
+	background:#000;
+	padding: 15px 0;
+	background:#000;
+	
+	
+	}
+#menu1 ul, #menu1 li{
+	display:inline;	
+	}
+#menu li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	padding: 1% 2%;
+	background:#000;
+	margin:0 ;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;	
+	
+	}
+#menu li a:hover {
+	background:#fff;
+	color:#000;
+	
+	
+	}
+#menu li .columns {
+	position:absolute; /* Importante para posicionar o conteúdo do dropdown */
+	left:-999999px; /* Esconde o dropdown quando o mouse não está em cima do link */
+	padding:10px 0px 10px 20px;/*preenciento da tabela*/
+	border-top:none;/*borda da tabela*/
+	background:#333;/*cor de fundo da tabela*/
+	width: 45%;/*tamanho da tabela*/
+	z-index:45;
+	margin-top:1%;/*açtura da tabela em relação ao link Serviços*/	
+}
+#menu li:hover .columns{/*posição da tabela quando o clica em serviços*/
+	left:42.5%;
+	
+}
+#menu ul li {
+	line-height:21px;/*altura da fonte nas listas*/
+}
+#menu li ul.col{ /*coluna da tabela*/
+	display:inline;
+	float: left;
+	position: relative;
+	padding:0;
+	margin:0 0 0 0;/*margem entre as duas colunas*/
+	width:48%;
+}
+#menu li ul.col li {
+	margin:0 0 0 0;
+	list-style-type:none;
+	position:relative;
+	float:none;
+	background:;
+}
+#menu li .col li:hover {
+	margin:0 0 10px 0;
+}
+/*#menu li .col span{
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+	
+}*/
+#menu li .col li a{
+	font-size:80%;
+	font-weight:bold;
+	color:#fff;
+	background:#000;
+	height:30px;
+	line-height:28px;
+	display:block;
+	text-align:left;
+	text-decoration:none;
+	padding:5px 0 5px 10px;
+	margin:8% 5% 8% 3%;/*posicionamento de um link para o outro, empurra um bloco para baixo do outro com um espaçamento*/
+	
+	
+}
+#menu li .col li a:hover{
+	color:#000;
+	background:#fff;	
+	
+	
+	}
+				
+#conteudo {
+	clear:both;
+	width:100%;
+	background:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	margin-top:1%;
+	margin-bottom:0;
+
+	}
+	/* SERVIÇOS 1*/
+#espaco1{
+	width: 74%;
+	height:200px;
+	margin-top:20px;
+	margin-bottom:5px;
+	box-shadow: 2px 2px 5px #ccc;
+
+}
+.icone1{
+	width: 20%;
+	float:left;
+	margin-right:10px;
+	
+}
+#tex1{
+	text-align:justify;
+	padding:20px;
+
+}
+#tx1{
+	padding-top: 10px;
+	text-align:center;
+	font-weight:bold;
+
+}
+
+#espaco2{
+	width: 74%;
+	height:200px;
+	margin-top:10px;
+	margin-bottom:5px;
+	box-shadow: 2px 2px 5px #ccc;
+}
+.icone2{
+	width: 20%;
+	float:right;
+	margin-left:10px;
+}
+#tex2{
+	text-align:justify;
+	padding:20px;
+}
+#tx2{
+	padding-top: 10px;
+	text-align:center;
+	font-weight:bold;
+}
+	
+#espaco3{
+	width: 74%;
+	height:200px;
+	margin-top:10px;
+	margin-bottom:5px;
+	box-shadow: 2px 2px 5px #ccc;
+}
+.icone3{
+	width: 20%;
+	float:left;
+	
+}
+#tex3{
+	text-align:justify;
+	padding:20px;
+}
+#tx3{
+	padding-top: 10px;
+	margin-left:217px;
+	font-weight:bold;
+}
+#publicidade{
+	width: 25%;
+	height:620px;
+	float:right;
+	margin-top:-625px;
+}
+.publicidade{
+	width: 100%;
+	height:620px;
+}
+#espaco4{
+	width: 25%;
+	height:620px;
+	float:right;
+	margin-top:-624px;
+	box-shadow: 2px 2px 5px #ccc;
+
+}
+
+#rodape {
+	clear:both;
+	font:Verdana, Geneva, sans-serif;
+	width:100%;
+	height:85px;
+	color:#333;
+	background:url(../img/rodape21.png) no-repeat;
+	background-size:100%;	
+	}
+#rodape #icones{
+	float:right;
+	width:50%;
+	height:70px;
+	margin-top:-42px;
+	z-index:99999999;
+	}
+#rodape .ic1{
+	float:right;
+	margin: 0 5% 0 0 ;
+	display:block;
+	width:15%;
+	}
+#rodape .ic2{
+	float:right;
+	margin: 0 5% 0 0 ;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic3{
+	float:right;
+	margin: 0 5% 0 0 ;
+	display:block;
+	width:15%;	
+	
+	}
+#rodape .ic4{
+	float:right;
+	margin: 0 5% 0 0 ;
+	display:block;
+	width:15%;	
+	}
+#rodape .ic5{
+	float:right;
+	margin: 0 4% 0 0 ;
+	display:block;
+	width:15%;	
+	
+	}
+
+#rodape #um {
+	width:60%;
+	float:left;
+	height:40px;
+	margin-top:20px;
+	}
+#rodape h2{
+	font-size:1em;
+	margin: 1% 0 0 0;
+	text-align:center;
+	font-weight:bold;
+	color:000;
+	}
+#rodape #paragra{
+	font-size:1em;
+	color:#fff;	
+	text-align:center;
+	margin-top:0.5%;
+	}
+#rodape .juntar{
+	color:#f25022;
+	}
+#rodape .ideias{
+	color:#81bb03;
+	
+}
+}
